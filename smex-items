@@ -1,0 +1,26 @@
+
+;; ----- smex-history -----
+(
+ toggle-truncate-lines
+ org-mode
+ linum-mode
+ term
+ kill-buffer
+ eshell
+ rename-buffer
+)
+
+;; ----- smex-data -----
+(
+ (line-number-mode . 1)
+ (linum-mode . 3)
+ (shell-mode . 1)
+ (shell . 1)
+ (term . 2)
+ (eshell-mode . 1)
+ (eshell . 4)
+ (rename-buffer . 2)
+ (kill-buffer . 3)
+ (toggle-truncate-lines . 8)
+ (org-mode . 1)
+)

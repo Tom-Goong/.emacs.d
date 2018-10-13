@@ -36,6 +36,9 @@
 (require 'dash)
 (require 'ov)
 
+(setq default-buffer-file-coding-system 'utf-8) 
+(prefer-coding-system 'utf-8)
+
 (defun prelude-buffer-mode (buffer-or-name)
   "Retrieve the `major-mode' of BUFFER-OR-NAME."
   (with-current-buffer buffer-or-name
